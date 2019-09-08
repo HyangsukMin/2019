@@ -1,0 +1,43 @@
+[["ICN","SFO"],["ICN","ATL"],["SFO","ATL"],["ATL","ICN"],["ATL","SFO"]]
+
+1) [“ICN”, ”SFO”]
+[1] 
+c_tickets = [["ICN","ATL"],["SFO","ATL"],["ATL","ICN"],["ATL","SFO"]]
+dfs(SFO,c_tickets, ICN, [])
+[1]-[1]
+route = 'ICN SFO'
+for
+['icn','atl']
+['sfo','atl']
+c_tickets = [["ICN","ATL"],["ATL","ICN"],["ATL","SFO"]]
+dfs(ATL,c_tickets,SFO,[])
+[1]-[1]-[1]
+route = 'SFO ATL'
+for
+[icn atl]
+[atl icn]
+c_tickets = [["ICN","ATL"],["ATL","SFO"]]
+dfs(ICN,c_tickets,ATL,[])
+[1]-[1]-[1]-[1]
+route = 'ATL ICN'
+for
+[icn atl]
+c_tickets = ['atl','sfo']
+dfs(ATL,c_tickets,ICN,[]) = ['ATL SFO']
+[1]-[1]-[1]-[1]
+route = 'ICN ATL'
+for
+[ATL SFO]
+c_tciekts = []
+dfs(SFO,[],ATL,[])
+[1]-[1]-[1]-[1]-[1]
+route = 'ATL SFO'
+list_result('ATL SFO')
+
+
+[atl sfo]
+[1]-[1]-[1]-[2]
+
+[1]-[1]-[1]
+2) [“ICN”, “ATL”]
+
